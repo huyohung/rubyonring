@@ -1,6 +1,8 @@
 # Foobar
 
-Viết tiếp hàm `foobar` trong file `foobar/main.rb`. Theo yêu cầu:
+Viết tiếp hàm `foobar` trong file `foobar/main.rb`. 
+
+Theo yêu cầu:
 In ra danh sách các số từ 1 tới input `number` với điều kiện.
 - Nếu chia hết cho 3 & 5 => in ra foobar
 - Nếu chia hết cho 3 => in ra foo
@@ -8,7 +10,7 @@ In ra danh sách các số từ 1 tới input `number` với điều kiện.
 - Nếu k chia hết cho 3 và 5 => in ra số đó.
 
 Ví dụ: foobar(10)
-Output: `1 2 bar 4 foo bar 7 8 bar foo`
+Output: `1 2 foo 4 bar foo 7 8 foo bar`
 
 Chương trình phải pass test và rubocop. Theo 2 dòng lệnh dưới đây:
 ```
