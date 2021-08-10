@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative './main'
+require_relative '../src/app'
 
 describe '"FooBar Test"' do
   it 'From 1 to 10' do
