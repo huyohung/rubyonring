@@ -18,5 +18,6 @@ bundle exec rubocop src/app.rb
 bundle exec rspec test/test_app.rb
 ```
 ## Git
-* Từ master rẽ ra nhánh mới
-* Sau khi code xong, tạo pull request, Đảm bảo CI pass.
+* Fork về github cá nhân
+* Clone về local, rẽ nhánh
+* Sau khi code xong, push lên github cá nhân, tạo pull request, Đảm bảo CI pass.
