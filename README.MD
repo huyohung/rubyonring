@@ -1,6 +1,6 @@
 # Foobar
 
-Viết tiếp hàm `foobar` trong file `foobar/main.rb`. 
+Viết tiếp hàm `foobar` trong file `src/app.rb`. 
 
 Theo yêu cầu:
 In ra danh sách các số từ 1 tới input `number` với điều kiện.
@@ -14,6 +14,9 @@ Output: `1 2 foo 4 bar foo 7 8 foo bar`
 
 Chương trình phải pass test và rubocop. Theo 2 dòng lệnh dưới đây:
 ```
-rubocop foobar/main.rb
-rspec foobar/test.rb
+bundle exec rubocop src/app.rb
+bundle exec rspec test/test_app.rb
 ```
+## Git
+* Từ master rẽ ra nhánh mới
+* Sau khi code xong, tạo pull request, Đảm bảo CI pass.
